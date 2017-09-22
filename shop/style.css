@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+#container {
+    width: 700px;
+    margin: 150px auto;
+    background-color: #eee;
+    overflow: hidden; /* Set overflow: hidden to clear the floats on #main and #sidebar */
+    padding: 15px;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+header {
+    background: black;color:white;
+}
+#stuff{
+    font-size:24px;
+    background-color: rgba(37, 0, 52, 0.16);
+}
